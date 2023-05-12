@@ -1,0 +1,134 @@
+:root { 
+    --main-color: rgb(12,12,63);
+}
+
+body{
+    margin: 0px 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+}
+.body{
+    margin: 0px 300px;
+}
+
+.barra{ 
+    background-color: var(--main-color);
+    color: white;
+}
+
+.contacto{
+    text-align: end;
+}
+
+.subtitulo{
+    user-select: none;
+    text-align: center;
+    background-color: var(--main-color);
+    border-radius:10px ;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.subtitulo:hover{
+    background-color:darkblue;
+    color:dimgray;
+}
+
+.contenedor{
+    display: none;
+
+    padding: 5px;
+}
+
+.card:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+ .btn{
+    width: 100%;
+    
+ }
+
+ .btn>a{
+   text-decoration: none;
+   color: white;
+   font-size: 1rem;
+   background-color:rgb(29, 186, 29);
+   padding: 10px;
+   border-radius: 10px;
+ }
+
+ .btn>a:hover{
+    
+    background-color:rgba(32, 221, 32, 0.717);
+    color: grey;
+ }
+
+
+ footer{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+    height: 50%;
+ }
+
+
+
+
+ /* CSS Proyects */
+
+.main-proyects{
+    padding: 0% 20%;
+    margin: 2%;
+    
+    
+}
+
+.volver{
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.carousel{
+    border: 2px solid black;
+}
+
+
+
+
+@media (max-width:1200px)  { 
+    .body{
+        margin:0px 100px;
+        padding: 0;
+    }
+
+    .main-proyects{
+    padding: 0% 15%;
+    }
+
+}
+
+@media (max-width:1000px){
+    .body{
+        margin: 0;
+    }
+
+     .main-proyects{
+    padding: 0% 5%;
+
+    }
+
+    .contacto{
+        text-align: center;
+    }
+    .title{
+        text-align: center;
+    }
+}
